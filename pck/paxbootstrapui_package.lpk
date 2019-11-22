@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="paxbootstrapui_package"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="..\src"/>
+        <OtherUnitFiles Value="..\src"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="7">
+      <Item1>
+        <Filename Value="..\src\fonts.lrs"/>
+        <Type Value="LRS"/>
+      </Item1>
+      <Item2>
+        <Filename Value="..\src\paxbootstrap.colors.pas"/>
+        <UnitName Value="paxbootstrap.colors"/>
+      </Item2>
+      <Item3>
+        <Filename Value="..\src\paxbootstrap.icons.pas"/>
+        <UnitName Value="paxbootstrap.icons"/>
+      </Item3>
+      <Item4>
+        <Filename Value="..\src\paxbootstrap.unicode.pas"/>
+        <UnitName Value="paxbootstrap.unicode"/>
+      </Item4>
+      <Item5>
+        <Filename Value="..\src\paxbootstrap.button.pas"/>
+        <UnitName Value="paxbootstrap.button"/>
+      </Item5>
+      <Item6>
+        <Filename Value="..\src\paxbootstrap.panel.pas"/>
+        <UnitName Value="paxbootstrap.panel"/>
+      </Item6>
+      <Item7>
+        <Filename Value="..\src\paxbootstrap.register.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="paxbootstrap.Register"/>
+      </Item7>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>
